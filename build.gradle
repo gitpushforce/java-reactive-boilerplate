@@ -12,6 +12,7 @@ repositories {
 dependencies {
     implementation 'io.projectreactor:reactor-core:3.5.3'
     // implementation 'com.github.javafaker:javafaker:1.0.2'
+    implementation 'net.datafaker:datafaker:1.8.0'
     compileOnly 'org.projectlombok:lombok:1.18.26'
 
     testImplementation 'io.projectreactor:reactor-test:3.5.3'
