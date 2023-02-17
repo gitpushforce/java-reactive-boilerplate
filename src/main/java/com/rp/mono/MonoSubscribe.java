@@ -1,4 +1,4 @@
-package com.rp.lazystreams;
+package com.rp.mono;
 
 import reactor.core.publisher.Mono;
 
@@ -8,7 +8,7 @@ public class MonoSubscribe {
         // publisher
         Mono<String> mono = Mono.just("ball");
 
-        mono.subscribe(
+        mono.subscribe (
                 item -> System.out.println(item),
                 err -> System.out.println(err.getMessage()),
                 () -> System.out.println("completed")

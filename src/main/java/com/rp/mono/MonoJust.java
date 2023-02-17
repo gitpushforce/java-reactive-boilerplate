@@ -1,4 +1,4 @@
-package com.rp.lazystreams;
+package com.rp.mono;
 
 import reactor.core.publisher.Mono;
 

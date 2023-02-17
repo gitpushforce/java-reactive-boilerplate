@@ -1,4 +1,4 @@
-package com.rp.lazystreams;
+package com.rp.mono;
 
 import java.util.stream.Stream;
 
