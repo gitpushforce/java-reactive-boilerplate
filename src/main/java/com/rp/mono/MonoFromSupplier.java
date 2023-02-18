@@ -11,9 +11,7 @@ public class MonoFromSupplier {
 
         // use fromSupplier when you are going to calculate new data.
         Mono<String> mono = Mono.fromSupplier(() -> getName());
-        mono.subscribe(
-                Util.onNext()
-        );
+        mono.subscribe(Util.onNext());
     }
 
     private static String getName() {
