@@ -3,7 +3,7 @@ package com.rp.mono;
 import com.rp.util.Util;
 import reactor.core.publisher.Mono;
 
-public class SupplierRefactoring {
+public class Lec06SupplierRefactoring {
     public static void main(String[] args) {
         //getName(); // this won't execute the pipeline, this will only create the pipeline
         getName().subscribe(Util.onNext());

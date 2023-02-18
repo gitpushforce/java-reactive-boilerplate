@@ -2,7 +2,7 @@ package com.rp.mono;
 
 import reactor.core.publisher.Mono;
 
-public class MonoJust {
+public class Lec02MonoJust {
     public static void main(String[] args) {
         Mono<Integer> mono = Mono.just(1);
 

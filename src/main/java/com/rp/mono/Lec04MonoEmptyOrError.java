@@ -3,7 +3,7 @@ package com.rp.mono;
 import com.rp.util.Util;
 import reactor.core.publisher.Mono;
 
-public class MonoEmptyOrError {
+public class Lec04MonoEmptyOrError {
     public static void main(String[] args) {
         userRepository(3).subscribe(
                 Util.onNext(),

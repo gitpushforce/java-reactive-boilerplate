@@ -2,7 +2,7 @@ package com.rp.mono;
 
 import reactor.core.publisher.Mono;
 
-public class MonoSubscribe {
+public class Lec03_01MonoSubscribe {
     public static void main(String[] args) {
 
         // publisher

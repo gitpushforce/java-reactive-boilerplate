@@ -3,7 +3,7 @@ package com.rp.mono;
 import com.rp.util.Util;
 import reactor.core.publisher.Mono;
 
-public class MonoSubscribeOnError {
+public class Lec03_02MonoSubscribeOnError {
     public static void main(String[] args) {
         // publisher
         Mono<Integer> mono = Mono.just("ball")

@@ -3,7 +3,7 @@ package com.rp.mono;
 import com.rp.util.Util;
 import reactor.core.publisher.Mono;
 
-public class MonoFromSupplier {
+public class Lec05MonoFromSupplier {
     public static void main(String[] args) {
 
         // use "just" only when you have data already
