@@ -13,7 +13,7 @@ public class Lec06SupplierRefactoring {
         System.out.println("getName method");
         return Mono.fromSupplier(() -> {
             System.out.println("Generating name");
-            // since the pipeline building time and execution time are so fast
+            // since the pipeline building time and execution time are so fastqq
             // Just putting this line for this example, to get a delay to easily know that it is executing
             Util.sleepSeconds(3);
             return Util.faker().name().fullName();
